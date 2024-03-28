@@ -45,10 +45,7 @@ Good luck!
 2. cd hand-challenge
 3. npm init
 4. npm install -save-dev jest (Other option is -D instead of -save-dev) --> Jest is used to test the project
-5. Add script section in package.json
-    "scripts": {
-      "test": "jest"    
-    }
+5. Add script section in package.json: "scripts": { "test": "jest" }
 6. Create mySolution.js, test.js, test1.hand, test2.hand and index*.js
-6. npm run test --> Ejecución de los tests
-7. node "index.js" --> Ejecución del programa
+6. npm run test --> Test
+7. node "index.js" --> Program using test1.hand and test2.hand
